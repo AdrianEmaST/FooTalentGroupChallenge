@@ -1,0 +1,31 @@
+/* Ejemplo de Media Query para móviles pequeños */
+@media (max-width: 360px) {
+    /* Estilos específicos para móviles pequeños */
+  }
+  
+  /* Otros ejemplos de Media Queries para diferentes tamaños de pantalla */
+  @media (max-width: 375px) {
+    /* Estilos específicos para móviles medianos */
+  }
+  
+  @media (max-width: 720px) {
+    /* Estilos específicos para smartphones grandes */
+  }
+  
+  @media (max-width: 1366px) {
+    /* Estilos específicos para ordenadores portátiles medianos */
+  }
+  
+  @media (max-width: 1440px) {
+    /* Estilos específicos para ordenadores de escritorio medianos */
+  }
+  
+  @media (max-width: 1920px) {
+    /* Estilos específicos para PC de escritorio grande */
+  }
+
+  .no-hover-effect {
+    transition: none;
+    cursor: default;
+  }
+

@@ -1,38 +1,30 @@
-.App {
-  text-align: center;
+/* Ejemplo de Media Query para móviles pequeños */
+@media (max-width: 360px) {
+  /* Estilos específicos para móviles pequeños */
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Otros ejemplos de Media Queries para diferentes tamaños de pantalla */
+@media (max-width: 375px) {
+  /* Estilos específicos para móviles medianos */
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+@media (max-width: 720px) {
+  /* Estilos específicos para smartphones grandes */
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+@media (max-width: 1366px) {
+  /* Estilos específicos para ordenadores portátiles medianos */
 }
 
-.App-link {
-  color: #61dafb;
+@media (max-width: 1440px) {
+  /* Estilos específicos para ordenadores de escritorio medianos */
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+@media (max-width: 1920px) {
+  /* Estilos específicos para PC de escritorio grande */
 }
+
+body{
+  background-color: #605985;
+}
+

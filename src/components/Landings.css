@@ -1,0 +1,82 @@
+@media (max-width: 360px) {
+    /* Estilos específicos para móviles pequeños */
+  }
+  
+  /* Otros ejemplos de Media Queries para diferentes tamaños de pantalla */
+  @media (max-width: 375px) {
+    /* Estilos específicos para móviles medianos */
+  }
+  
+  @media (max-width: 720px) {
+    /* Estilos específicos para smartphones grandes */
+  }
+  
+  @media (max-width: 1366px) {
+    /* Estilos específicos para ordenadores portátiles medianos */
+  }
+  
+  @media (max-width: 1440px) {
+    /* Estilos específicos para ordenadores de escritorio medianos */
+  }
+  
+  @media (max-width: 1920px) {
+    /* Estilos específicos para PC de escritorio grande */
+  }
+
+  .button-landing {
+    background: black;
+    cursor: pointer;
+    border: none;
+    padding: 16px 18px;
+    color: azure;
+    font-size: 24px;
+    font-weight: bold;
+    position: relative;
+    border-radius: 12px;
+    bottom: 100px;
+  }
+  
+  .button-landing:hover {
+    transform: scale(1.1); /* Ajusta el valor según tu preferencia para el agrandamiento */
+    border: 2px solid white; /* Añade un borde blanco al pasar el ratón */
+  }
+  
+  .button-landing:hover::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    background-size: 800%;
+    border-radius: 12px;
+    filter: blur(8px);
+    animation: glowing 20s linear infinite;
+  }
+
+@keyframes glowing {
+  0% {
+      background-position: 0 0;
+  }
+  50% {
+      background-position: 400% 0;
+  }
+  100% {
+      background-position: 0 0;
+  }
+}
+
+.landing-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url('../assets/img/Landing2.jpg');
+  background-color: black;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: center;
+  height: 100vh;
+  padding: 0;
+}
