@@ -1,74 +1,62 @@
+# Pokemon Web App
 
-# Getting Started with Create React App
+Este proyecto es una aplicación web simple escrita en React-Redux que consume la API de Pokémon (https://pokeapi.co/api/v2/). La aplicación muestra los primeros 10 Pokémon ordenados por peso, número y altura. También permite ordenar la lista de Pokémon y ver detalles específicos de cada Pokémon.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Contenido
 
-## Available Scripts
+1. [Instalación](#instalación)
+2. [Uso](#uso)
+3. [Estructura del Proyecto](#estructura-del-proyecto)
+4. [Tecnologías Utilizadas](#tecnologías-utilizadas)
+5. [Capturas de Pantalla](#capturas-de-pantalla)
+6. [Contribución](#contribución)
+7. [Despliegue en Netlify](#despliegue-en-netlify)
 
-In the project directory, you can run:
+## Instalación
 
-### `npm start`
+Para instalar y ejecutar la aplicación, sigue estos pasos:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1. Clona este repositorio: `git clone https://github.com/tuusuario/pokemon-web-app.git`
+2. Ingresa al directorio del proyecto: `cd pokemon-web-app`
+3. Instala las dependencias: `npm install`
+4. Inicia la aplicación: `npm start`
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Uso
 
-### `npm test`
+Después de seguir los pasos de instalación, abre tu navegador y accede a [http://localhost:3000](http://localhost:3000). La aplicación te dirigirá automáticamente a la página de inicio. Desde allí, puedes navegar a la lista de Pokémon y ver detalles específicos de cada uno.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Estructura del Proyecto
 
-### `npm run build`
+El proyecto sigue una estructura organizada:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **src/components:** Contiene los componentes React.
+- **src/redux:** Contiene archivos relacionados con Redux (acciones, reducer y store).
+- **src/services:** Contiene servicios para realizar solicitudes a la API de Pokémon.
+- **src/styles:** Contiene archivos de estilos.
+- **public:** Contiene archivos estáticos.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Tecnologías Utilizadas
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- React
+- Redux
+- Material-UI
+- React Router
+- Axios
 
-### `npm run eject`
+## Capturas de Pantalla
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+![Aplicación Captura de Pantalla](src/assets/img/screenProyecto.png)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Contribución
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Si deseas contribuir al proyecto, sigue estos pasos:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+1. Haz un fork del repositorio.
+2. Crea una rama para tu contribución: `git checkout -b feature/nueva-funcionalidad`
+3. Realiza tus cambios y haz commit: `git commit -m 'Añadir nueva funcionalidad'`
+4. Haz push a tu rama: `git push origin feature/nueva-funcionalidad`
+5. Abre un Pull Request.
 
-## Learn More
+## Despliegue en Netlify
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-
-# FooTalentGroupChallenge
-
+La aplicación está desplegada en [Netlify](https://www.netlify.com/). Puedes acceder a ella en: [Enlace de Netlify]([https://pokemonapp-footalent.netlify.app/])
