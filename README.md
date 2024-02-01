@@ -59,4 +59,4 @@ Si deseas contribuir al proyecto, sigue estos pasos:
 
 ## Despliegue en Netlify
 
-La aplicación está desplegada en [Netlify](https://www.netlify.com/). Puedes acceder a ella en: [Enlace de Netlify]([https://pokemonapp-footalent.netlify.app/])
+La aplicación está desplegada en [Netlify](https://www.netlify.com/). Puedes acceder a ella en: [Enlace de Netlify](https://pokemonapp-footalent.netlify.app/)
