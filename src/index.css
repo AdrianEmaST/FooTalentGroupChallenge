@@ -11,6 +11,7 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
 /* Ejemplo de Media Query para móviles pequeños */
 @media (max-width: 360px) {
   /* Estilos específicos para móviles pequeños */

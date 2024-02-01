@@ -1,60 +1,61 @@
-/* Ejemplo de Media Query para móviles pequeños */
 @media (max-width: 360px) {
-    /* Estilos específicos para móviles pequeños */
-  }
-  
-  /* Otros ejemplos de Media Queries para diferentes tamaños de pantalla */
-  @media (max-width: 375px) {
-    /* Estilos específicos para móviles medianos */
-  }
-  
-  @media (max-width: 720px) {
-    /* Estilos específicos para smartphones grandes */
-  }
-  
-  @media (max-width: 1366px) {
-    /* Estilos específicos para ordenadores portátiles medianos */
-  }
-  
-  @media (max-width: 1440px) {
-    /* Estilos específicos para ordenadores de escritorio medianos */
-  }
-  
-  @media (max-width: 1920px) {
-    /* Estilos específicos para PC de escritorio grande */
-  }
+  /* Estilos específicos para móviles pequeños */
+}
 
-  .cards-container {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 16px; /* Espacio entre las tarjetas */
-  }
-  
-  .pokemon-card {
-    background-color: #070713; /* Añade el color de fondo deseado */
-    text-decoration: none; /* Quita el subrayado */
-    width: 200px; /* Ancho de la tarjeta */
-    margin: 8px; /* Margen alrededor de la tarjeta */
-    color: white; /* Cambia el color del texto para que sea legible en el fondo oscuro */
-    text-align: center;
-    transition: transform 0.9s ease; /* Agrega una transición suave al cambio de tamaño */
-  }
-  .pokemon-card:hover {
-    transform: scale(1.03); /* Aumenta el tamaño en un 10% al pasar el ratón sobre la tarjeta */
-  }
+/* Otros ejemplos de Media Queries para diferentes tamaños de pantalla */
+@media (max-width: 375px) {
+  /* Estilos específicos para móviles medianos */
+}
 
-  .pokemon-card img {
-    object-fit: contain;
-    height: 120px; /* Ajusta la altura según tus necesidades */
-  }
+@media (max-width: 720px) {
+  /* Estilos específicos para smartphones grandes */
+}
 
-  .pokemon-card a {
-    text-decoration: none; /* Quita el subrayado */
-    color: inherit; /* Hereda el color del texto del contenedor */
-    cursor: auto; /* Cambia el cursor de enlace a predeterminado */
-  }
-  .no-hover-effect {
-    transition: none;
-    cursor: default;
-  }
+@media (max-width: 1366px) {
+  /* Estilos específicos para ordenadores portátiles medianos */
+}
+
+@media (max-width: 1440px) {
+  /* Estilos específicos para ordenadores de escritorio medianos */
+}
+
+@media (max-width: 1920px) {
+  /* Estilos específicos para PC de escritorio grande */
+}
+
+.cards-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.pokemon-card {
+  background-color: #070713;
+  text-decoration: none;
+  width: 200px;
+  margin: 8px;
+  color: white;
+  text-align: center;
+  transition: transform 0.9s ease;
+}
+
+.pokemon-card:hover {
+  transform: scale(1.03);
+}
+
+.pokemon-card img {
+  object-fit: contain;
+  height: 120px;
+}
+
+.pokemon-card a {
+  text-decoration: none;
+  color: inherit;
+  cursor: auto;
+}
+
+.no-hover-effect {
+  transition: none;
+  cursor: default;
+}

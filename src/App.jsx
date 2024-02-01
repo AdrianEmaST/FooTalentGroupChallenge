@@ -10,9 +10,10 @@ import './App.css'
 const App = () => {
   return (
     <Provider store={store}>
-       <Router>
-       <Routes>
-          <Route path="/" element={<Landing />} /> {/* Página de inicio */}
+      <Router>
+        <Routes>
+          {/* Página de inicio */}
+          <Route path="/" element={<Landing />} />
           <Route path="/pokemons" element={<PokemonList />} />
           <Route path="/pokemon/:id" element={<PokemonDetails />} />
         </Routes>

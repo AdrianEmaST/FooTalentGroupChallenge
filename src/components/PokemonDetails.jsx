@@ -23,10 +23,9 @@ const PokemonDetails = () => {
   return (
     <Grid container justifyContent="center" alignItems="center" className="card-container" >
       <Grid>
-      <Card className={`pokemon-card pokemon-detail-card`} sx={{ display: 'flex', flexDirection: 'column', alignItems: 'center', backgroundColor: '#4d466d', maxWidth: '600px' }}>
+        <Card className={`pokemon-card pokemon-detail-card`} sx={{ display: 'flex', flexDirection: 'column', alignItems: 'center', backgroundColor: '#4d466d', maxWidth: '600px' }}>
           <CardMedia
             component="img"
-
             image={selectedPokemon.sprites.other.showdown.front_default}
             alt={selectedPokemon.name}
           />
@@ -48,7 +47,7 @@ const PokemonDetails = () => {
             </Typography>
             <Typography variant="body1" color="text.secondary">
               <span style={{ fontWeight: 'bold' }}>Statistics:</span>
-              </Typography>
+            </Typography>
             {selectedPokemon.stats.map((stat) => (
               <Typography key={stat.stat.name} variant="body2" color="text.secondary">
                 <span style={{ fontWeight: 'bold' }}>{stat.stat.name}:</span> {stat.base_stat}
@@ -56,7 +55,7 @@ const PokemonDetails = () => {
             ))}
           </CardContent>
           <Link to="/pokemons">
-          <Button variant="contained" sx={{ backgroundColor: '#4d466d' }}>Back</Button>
+            <Button variant="contained" sx={{ backgroundColor: '#4d466d' }}>Back</Button>
           </Link>
         </Card>
       </Grid>

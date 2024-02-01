@@ -1,4 +1,3 @@
-/* Ejemplo de Media Query para móviles pequeños */
 @media (max-width: 360px) {
   /* Estilos específicos para móviles pequeños */
 }
@@ -24,7 +23,6 @@
   /* Estilos específicos para PC de escritorio grande */
 }
 
-body{
+body {
   background-color: #605985;
 }
-

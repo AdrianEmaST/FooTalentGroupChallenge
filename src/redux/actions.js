@@ -7,7 +7,8 @@ export const setPokemonList = (pokemonList) => ({
 
 export const fetchPokemonList = () => async (dispatch, getState) => {
   try {
-    const { sortType, sortOrder } = getState(); // Obtén el tipo y la dirección de ordenamiento del estado global
+    const { sortType, sortOrder } = getState();
+    // Obtén el tipo y la dirección de ordenamiento del estado global
 
     let pokemonData = await getPokemonList();
     pokemonData = await Promise.all(
